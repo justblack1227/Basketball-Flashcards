@@ -1,0 +1,11 @@
+extends app.pug 
+
+block intro
+    .namecard      
+      form.namecard-form(action='', method='post')
+        label.namecard-prompt
+          | Please enter your name:
+        |             
+        input.namecard-name(type='text', name='username')
+        |             
+        button.namecard-submit(type='submit') Submit

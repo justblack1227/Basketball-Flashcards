@@ -1,0 +1,22 @@
+{
+    "data": {
+        "title": "Javascript Flashcards",
+        "cards": [
+            {
+                "question": "What language are Express apps written in?",
+                "hint": "It starts with a \"J\"",
+                "answer": "Javascript"
+            },
+            {
+                "question": "Kobe dunked on who?",
+                "hint": "It starts with a \"D\"",
+                "answer": "Dwight Howard"
+            },
+            {
+                "question": "Tom Brady crossed up who?",
+                "hint": "It starts with a \"B\"",
+                "answer": "Bill Belichek"
+            }
+        ]
+    }
+}

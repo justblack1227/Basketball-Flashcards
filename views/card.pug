@@ -1,0 +1,23 @@
+extends app.pug
+
+block card
+  section(class='flashcards')
+    .card(class=`card-${side}`)
+      .card-header 
+      h1.card-title= side
+      #content.namecard
+        h2= text
+        if hint
+          p.hint 
+            i=hint
+      .card
+        .float-child-card-buttons
+          if sideToShow === "question"
+            a(href=`${id}?side=${sideToShow}`) Question
+          else
+            a(href=`${id}?side=${sideToShow}`) Answer
+        .float-child-card-buttons
+          a(href='/cards') Next
+  //- script(src='/static/js/app/js')
+            
+            

@@ -1,0 +1,13 @@
+doctype html(lang='en')
+head
+    title Flash Cards
+    |     
+    link(rel='stylesheet', href='/static/stylesheets/style.css')
+    body
+        .namecard-above-greeting
+            include includes/header.pug
+            if name
+                h3 Hey There, #{name}!
+                form(action='/goodbye', method='post')
+                    button.button-secondary-small(type='submit') Goodbye
+        block main
